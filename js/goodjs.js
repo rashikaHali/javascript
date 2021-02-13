@@ -145,6 +145,7 @@ const sumRandomNums = () => {
 // Good (async / await)
 // async will force it to return a promise
 // we can use await in front of our promises and have them resolve to a variable value
+
 const sumRandomNums = async() => {
   const first = await random();
   const second = await random();
